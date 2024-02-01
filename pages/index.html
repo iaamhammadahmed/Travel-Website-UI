@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div class="relative">
+      <div class="flex">
+        <div class="relative">
+          <img
+            class="brightness-50"
+            src="./assets/images/landing1.png"
+            alt="image"
+          />
+
+          <div
+            class="flex md:gap-5 gap-2 absolute md:bottom-5 bottom-2 md:inset-x-8 mx-2 hover:cursor-pointer"
+          >
+            <p class="md:text-3xl text-[8px] font-semibold text-[#FFFFFF]">
+              Fun Trip to the <br />
+              Pyramid of Giza, <br />
+              Egypt
+            </p>
+            <img
+              class="md:w-16 w-4"
+              src="./assets/images/imagearrow.svg"
+              alt="Arrow"
+            />
+          </div>
+        </div>
+        <!-- Second image -->
+        <div class="relative">
+          <img
+            class="brightness-50"
+            src="./assets/images/landing 2.png"
+            alt="image"
+          />
+
+          <div
+            class="flex md:gap-5 gap-2 absolute md:bottom-5 bottom-2 md:inset-x-1 mx-2 hover:cursor-pointer"
+          >
+            <p class="md:text-3xl text-[8px] font-semibold text-[#FFFFFF]">
+              Unmissable places <br />
+              to visit on your next <br />
+              Travel to Jamaica
+            </p>
+            <img
+              class="md:w-16 w-4"
+              src="./assets/images/imagearrow.svg"
+              alt="Arrow"
+            />
+          </div>
+        </div>
+        <!-- Third Image -->
+
+        <div class="relative">
+          <img
+            class="brightness-50"
+            src="./assets/images/landing3.png"
+            alt="image"
+          />
+
+          <div
+            class="flex gap-3 absolute md:bottom-5 bottom-2 md:inset-x-6 mx-2 hover:cursor-pointer"
+          >
+            <p class="md:text-3xl text-[8px] font-semibold text-[#FFFFFF]">
+              Fun fact about Bay <br />
+              of Islands, New <br />
+              Zealand.
+            </p>
+            <img
+              class="md:w-16 w-4"
+              src="./assets/images/imagearrow.svg"
+              alt="Arrow"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute top-1/3 md:inset-x-32 inset-x-12 flex flex-col items-center hover:cursor-pointer"
+      >
+        <h1 class="md:text-6xl text-lg font-extrabold text-[#FFFFFF]">
+          Discover New Places and Create
+        </h1>
+        <h1 class="md:text-6xl text-lg font-extrabold text-[#FFFFFF] md:mt-2">
+          Unforgettable Memories
+        </h1>
+      </div>
+
+      <div
+        class="absolute md:top-5 top-0 flex justify-between items-center md:mx-20 mx-5"
+      >
+        <div class="hover:scale-105 ease-in duration-100 hover:cursor-pointer">
+          <a href="./index.html">
+            <img src="./assets/images/logo.png" alt="logo" />
+          </a>
+        </div>
+        <div class="flex gap-32 items-center hidden md:flex">
+          <div class="flex gap-10">
+            <a href="./destination.html"
+              ><p
+                class="text-2xl font-extrabold text-[#FFFFFF] hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+              >
+                Destination
+              </p></a
+            >
+            <a href="./stories.html"
+              ><p
+                class="text-2xl font-extrabold text-[#FFFFFF] hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+              >
+                Stories
+              </p></a
+            >
+            <a href="./review.html"
+              ><p
+                class="text-2xl font-extrabold text-[#FFFFFF] hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+              >
+                Reviews
+              </p></a
+            >
+          </div>
+          <div class="flex gap-8 items-center">
+            <div
+              class="hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+            >
+              <img src="./assets/images/searchicon.svg" alt="search icon" />
+            </div>
+            <div class="flex gap-5 items-baseline">
+              <div>
+                <a href="./signup.html"
+                  ><p
+                    class="text-xl font-extrabold text-[#FFFFFF] hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+                  >
+                    Sign Up
+                  </p></a
+                >
+              </div>
+              <div>
+                <a href="./activelogin.html"
+                  ><button
+                    class="text-2xl font-bold text-[#000000] w-40 py-3 bg-[#FFFFFF] border-2 border-solid border-[#FFFFFF] rounded-full hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+                  >
+                    Login
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:hidden">
+          <i class="fa-solid fa-bars" style="color: #fcfcfc"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Also feature in div starts here -->
+
+    <div class="text-center mb-5 mt-20">
+      <h2
+        class="md:text-4xl text-2xl font-bold text-[#404040] hover:cursor-pointer"
+      >
+        ALSO FEATURED IN
+      </h2>
+    </div>
+    <div class="md:flex justify-between mx-10 md:mb-20">
+      <a href="https://www.nytimes.com/international/"
+        ><img
+          class="mb-5 items-center scale-100 hover:scale-110 ease-in duration-100"
+          src="./assets/images/alsologo1.png"
+          alt="logo"
+      /></a>
+      <a href="https://www.travelandleisure.com/"
+        ><img
+          class="mb-5 items-center scale-100 hover:scale-110 ease-in duration-100"
+          src="./assets/images/alsologo2.png"
+          alt="logo"
+      /></a>
+      <a href="https://edition.cnn.com/"
+        ><img
+          class="mb-5 items-center scale-100 hover:scale-110 ease-in duration-100"
+          src="./assets/images/alsologo3.png"
+          alt="logo"
+      /></a>
+      <a href="https://www.visitoslo.com/en/"
+        ><img
+          class="mb-5 items-center scale-100 hover:scale-110 ease-in duration-100"
+          src="./assets/images/alsologo4.png"
+          alt="logo"
+      /></a>
+      <a href="https://www.visitflorida.com/"
+        ><img
+          class="mb-5 items-center scale-100 hover:scale-110 ease-in duration-100"
+          src="./assets/images/alsologo5.png"
+          alt="logo"
+      /></a>
+    </div>
+
+    <!-- Best trip section starts here -->
+
+    <div class="md:flex justify-between items-center md:mx-10 md:my-20 m-5">
+      <div class="flex flex-col md:gap-5 gap-2 mb-5">
+        <h3
+          class="md:text-5xl text-2xl font-bold text-[#000000] hover:cursor-pointer"
+        >
+          Plan your best trip ever
+        </h3>
+        <p
+          class="md:text-2xl text-base font-medium text-[#404040] hover:cursor-pointer"
+        >
+          Making the Most of Your Travel Experience in 2023
+        </p>
+      </div>
+
+      <a href="./destination.html"
+        ><div
+          class="border-2 border-solid border-[#4169E1] rounded-full px-5 py-2 mb-5 text-xl font-medium text-[#4169E1] hover:bg-[#4169E1] hover:text-white hover:cursor-pointer"
+        >
+          <p>View All Destination</p>
+        </div></a
+      >
+    </div>
+
+    <!-- Croatia image div starts here -->
+
+    <div class="md:flex gap-5 md:mx-10">
+      <div class="flex flex-col md:gap-5 gap-2 mb-5 hover:cursor-pointer">
+        <img src="./assets/images/Croatia1.png" alt="image" />
+        <a href="https://www.lonelyplanet.com/croatia"
+          ><p
+            class="text-4xl font-bold text-[#000000] scale-100 hover:scale-105 ease-in duration-100"
+          >
+            Croatia
+          </p></a
+        >
+      </div>
+      <div class="flex flex-col md:gap-5 gap-2 mb-5 hover:cursor-pointer">
+        <img src="./assets/images/Morocco1.png" alt="image" />
+        <a href="https://www.lonelyplanet.com/morocco"
+          ><p
+            class="text-4xl font-bold text-[#000000] scale-100 hover:scale-105 ease-in duration-100"
+          >
+            Morocco
+          </p></a
+        >
+      </div>
+      <div class="flex flex-col md:gap-5 gap-2 mb-5 hover:cursor-pointer">
+        <img src="./assets/images/Mexico1.png" alt="image" />
+        <a href="https://travel.gc.ca/destinations/mexico"
+          ><p
+            class="text-4xl font-bold text-[#000000] scale-100 hover:scale-105 ease-in duration-100"
+          >
+            Mexico
+          </p></a
+        >
+      </div>
+    </div>
+
+    <!-- Top location div starts here -->
+
+    <div class="items-center md:mx-10 md:my-20 m-3">
+      <div class="flex flex-col md:gap-5 gap-2 mb-5">
+        <h3
+          class="md:text-5xl text-2xl font-bold text-[#000000] hover:cursor-pointer"
+        >
+          Top Locations to Explore
+        </h3>
+        <p
+          class="md:text-2xl text-base font-medium text-[#404040] hover:cursor-pointer"
+        >
+          Here are some of the most visited places in 2023
+        </p>
+      </div>
+    </div>
+
+    <!-- Shibuya image div starts here -->
+
+    <div class="md:flex gap-5 md:mx-10 md:mb-20 m-3 hover:cursor-pointer">
+      <div class="flex flex-col md:gap-5 gap-2 mb-5">
+        <img src="./assets/images/The Shibuya.png" alt="image" />
+        <div class="flex flex-col md:gap-3 gap-1">
+          <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+            Tokyo, Japan
+          </p>
+          <a href="https://www.japan-guide.com/e/e3007.html"
+            ><p
+              class="md:text-4xl text-xl font-bold text-[#000000] scale-100 hover:scale-105 ease-in duration-100"
+            >
+              The Shibuya
+            </p></a
+          >
+        </div>
+      </div>
+      <div class="flex flex-col md:gap-5 gap-2 mb-5">
+        <img src="./assets/images/The Colosseum.png" alt="image" />
+        <div class="flex flex-col md:gap-3 gap-1">
+          <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+            Rome, Italy
+          </p>
+          <a href="https://www.getyourguide.com/colosseum-l2619/"
+            ><p
+              class="md:text-4xl text-xl font-bold text-[#000000] scale-100 hover:scale-105 ease-in duration-100"
+            >
+              The Colosseum
+            </p></a
+          >
+        </div>
+      </div>
+      <div class="flex flex-col md:gap-5 gap-2 mb-5">
+        <img src="./assets/images/The Blyde River Canyon.png" alt="image" />
+        <div class="flex flex-col md:gap-3 gap-1">
+          <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+            Capetown, South Africa
+          </p>
+          <a href="https://www.lonelyplanet.com/south-africa/blyde-river-canyon"
+            ><p
+              class="md:text-4xl text-xl font-bold text-[#000000] scale-100 hover:scale-105 ease-in duration-100"
+            >
+              The Blyde River Canyon
+            </p></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Recent div starts here -->
+
+    <div class="flex flex-col md:gap-5 gap-2 md:mx-10 m-3">
+      <h3
+        class="md:text-5xl text-2xl font-bold text-[#000000] hover:cursor-pointer"
+      >
+        Your Recent Searches
+      </h3>
+      <p
+        class="md:text-2xl text-base font-medium text-[#404040] hover:cursor-pointer"
+      >
+        Here are some of the places you have searched
+      </p>
+    </div>
+
+    <!-- Burj Khalifa div section starts here -->
+
+    <div class="md:flex gap-10 md:mx-10 md:my-10 m-5">
+      <a href="https://en.wikipedia.org/wiki/Burj_Khalifa"
+        ><div
+          class="flex gap-3 border-2 border-solid border-[#A0A0A0] rounded-xl px-5 py-3 mb-3 scale-100 hover:scale-110 ease-in duration-100 hover:cursor-pointer"
+        >
+          <img src="./assets/images/location.svg" alt="location icon" />
+          <div>
+            <p class="md:text-2xl text-xl font-semibold text-[#000000]">
+              Burj Khalifa
+            </p>
+            <p class="md:text-xl text-base font-medium text-[#5B5B5B]">
+              Dubai, UAE
+            </p>
+          </div>
+        </div></a
+      >
+      <!-- Second -->
+      <a href="https://museudoamanha.org.br/en"
+        ><div
+          class="flex gap-3 border-2 border-solid border-[#A0A0A0] rounded-xl px-5 py-3 mb-3 scale-100 hover:scale-110 ease-in duration-100 hover:cursor-pointer"
+        >
+          <img src="./assets/images/location.svg" alt="location icon" />
+          <div>
+            <p class="md:text-2xl text-xl font-semibold text-[#000000]">
+              Museum of Tomorrow
+            </p>
+            <p class="md:text-xl text-base font-medium text-[#5B5B5B]">
+              Rio de Janeiro, Brazil
+            </p>
+          </div>
+        </div></a
+      >
+
+      <!-- Third -->
+
+      <a href="https://www.tripadvisor.com/Restaurants-g153339-Canada.html"
+        ><div
+          class="flex gap-3 border-2 border-solid border-[#A0A0A0] rounded-xl px-5 py-6 mb-3 scale-100 hover:scale-110 ease-in duration-100 hover:cursor-pointer"
+        >
+          <img src="./assets/images/Landing search.svg" alt="Search icon" />
+
+          <p class="md:text-2xl text-xl font-semibold text-[#000000]">
+            Restaurants in Canada
+          </p>
+        </div></a
+      >
+
+      <!-- Fourth -->
+
+      <a href="https://www.tripadvisor.com/Hotels-g153339-Canada-Hotels.html"
+        ><div
+          class="flex gap-3 border-2 border-solid border-[#A0A0A0] rounded-xl px-5 py-6 mb-3 scale-100 hover:scale-110 ease-in duration-100 hover:cursor-pointer"
+        >
+          <img src="./assets/images/Landing search.svg" alt="Search icon" />
+
+          <p class="md:text-2xl text-xl font-semibold text-[#000000]">
+            Hotels in Canada
+          </p>
+        </div></a
+      >
+    </div>
+
+    <!-- locations div starts here -->
+
+    <div
+      class="md:flex justify-between items-center md:mx-10 md:my-20 m-5 hover:cursor-pointer"
+    >
+      <div class="flex flex-col md:gap-5 gap-2 mb-5">
+        <h3 class="md:text-5xl text-2xl font-bold text-[#000000]">
+          Locations based on search
+        </h3>
+        <p class="md:text-2xl text-lg font-medium text-[#404040]">
+          Check out fun places based on your searches
+        </p>
+      </div>
+    </div>
+
+    <!-- Burj Khalifa div starts here -->
+
+    <div class="md:flex gap-5 md:mx-10 md:mb-20 m-3">
+      <div class="flex flex-col md:gap-5 gap-2 mb-5 hover:cursor-pointer">
+        <img src="./assets/images/Burj Khalifa.png" alt="image" />
+        <div class="flex flex-col md:gap-3">
+          <p class="md:text-2xl text-lg font-medium text-[#5B5B5B]">
+            Dubai, UAE
+          </p>
+          <a href="https://www.headout.com/blog/burj-khalifa-dubai/"
+            ><p
+              class="md:text-4xl text-xl font-bold text-[#000000] scale-100 hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+            >
+              Burj Khalifa
+            </p></a
+          >
+        </div>
+      </div>
+      <div class="flex flex-col md:gap-5 gap-2 mb-5 hover:cursor-pointer">
+        <img src="./assets/images/Published On Main.png" alt="image" />
+        <div class="flex flex-col md:gap-3">
+          <p class="md:text-2xl text-lg font-medium text-[#5B5B5B]">
+            Vancouver, Canada
+          </p>
+          <a href="https://www.destinationvancouver.com/"
+            ><p
+              class="md:text-4xl text-xl font-bold text-[#000000] scale-100 hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+            >
+              Plan Your Trip
+            </p></a
+          >
+        </div>
+      </div>
+      <div class="flex flex-col md:gap-5 gap-2 mb-5 hover:cursor-pointer">
+        <img src="./assets/images/The Hot Springs of Baños.png" alt="image" />
+        <div class="flex flex-col md:gap-3">
+          <p class="md:text-2xl text-lg font-medium text-[#5B5B5B]">
+            Baños de Agua Santa, Ecuador
+          </p>
+          <a href="https://medicalaid.org/adventure/banos/"
+            ><p
+              class="md:text-4xl text-xl font-bold text-[#000000] scale-100 hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+            >
+              The Hot Springs of Baños
+            </p></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Travel Stories section starts here -->
+
+    <div class="md:flex justify-between items-center md:mx-10 md:my-20 m-3">
+      <div class="flex flex-col md:gap-5 gap-2 mb-5">
+        <h3
+          class="md:text-5xl text-2xl font-bold text-[#000000] hover:cursor-pointer"
+        >
+          Top Travel Sories
+        </h3>
+        <p
+          class="md:text-2xl text-lg font-medium text-[#404040] hover:cursor-pointer"
+        >
+          Explore our latest stories from our active users
+        </p>
+      </div>
+
+      <a href="./stories.html"
+        ><div
+          class="border-2 border-solid border-[#4169E1] rounded-full text-xl font-medium text-[#4169E1] text-center px-5 py-2 mb-5 hover:bg-[#4169E1] hover:text-white hover:cursor-pointer"
+        >
+          <p>View All Stories</p>
+        </div></a
+      >
+    </div>
+
+    <!-- Image div starts here -->
+    <div class="md:grid md:grid-cols-2 gap-5 md:mx-10 m-3">
+      <div class="flex flex-col md:gap-5 gap-2 mb-5 hover:cursor-pointer">
+        <img src="./assets/images/Mumbai India.png" alt="image" />
+        <div class="flex justify-between">
+          <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+            Mumbai, India
+          </p>
+          <div class="flex gap-2">
+            <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+              Feb 27, 2023
+            </p>
+            <img src="./assets/images/dot.svg" alt="dot" />
+            <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+              8 min read
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col md:gap-5 gap-2">
+          <h3 class="md:text-4xl text-xl font-bold text-[#000000]">
+            A Wonderful Journey to India
+          </h3>
+          <p class="md:text-xl text-xs font-medium text-[#000000]">
+            I had always been interested in spirituality, so I decided to take a
+            <br />
+            year-long journey to India to explore various religious practices
+            and
+            <br />traditions.
+          </p>
+        </div>
+        <a href="./mumbaiIndia.html"
+          ><div
+            class="flex gap-5 scale-100 hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+          >
+            <p class="md:text-2xl text-xl font-semibold text-[#4169E1]">
+              Read Full Post
+            </p>
+            <img src="./assets/images/arrow1.svg" alt="arrow" /></div
+        ></a>
+      </div>
+
+      <!-- Second Image -->
+
+      <div class="flex flex-col md:gap-5 gap-2 mb-5 hover:cursor-pointer">
+        <img src="./assets/images/Europe.png" alt="image" />
+        <div class="flex justify-between">
+          <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+            Barcelona, Spain
+          </p>
+          <div class="flex gap-2">
+            <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+              Feb 27, 2023
+            </p>
+            <img src="./assets/images/dot.svg" alt="dot" />
+            <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+              5 min read
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col md:gap-5 gap-2">
+          <h3 class="md:text-4xl text-xl font-bold text-[#000000]">
+            A Solo Trip Across Europe
+          </h3>
+          <p class="md:text-xl text-xs font-medium text-[#000000]">
+            I had just graduated from college and decided to take a six-month
+            <br />
+            solo trip across Europe before starting my career. I backpacked
+            <br />
+            through 15 different countries, staying in hostels and meeting
+            people.
+          </p>
+        </div>
+        <a href="./barcelonaspain.html"
+          ><div
+            class="flex gap-5 scale-100 hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+          >
+            <p class="md:text-2xl text-xl font-semibold text-[#4169E1]">
+              Read Full Post
+            </p>
+            <img src="./assets/images/arrow1.svg" alt="arrow" /></div
+        ></a>
+      </div>
+
+      <!-- Third Image -->
+
+      <div class="flex flex-col md:gap-5 gap-2 mb-5 hover:cursor-pointer">
+        <img src="./assets/images/Kathmandu, Nepal.png" alt="image" />
+        <div class="flex justify-between">
+          <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+            Kathmandu, Nepal
+          </p>
+          <div class="flex gap-2">
+            <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+              Feb 27, 2023
+            </p>
+            <img src="./assets/images/dot.svg" alt="dot" />
+            <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+              6 min read
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col md:gap-5 gap-2">
+          <h3 class="md:text-4xl text-xl font-bold text-[#000000]">
+            11 Best Places to visit in Nepal
+          </h3>
+          <p class="md:text-xl text-xs font-medium text-[#000000]">
+            It was a beautiful spring morning when I arrived in Kathmandu, the
+            <br />
+            capital city of Nepal. As soon as I stepped out of the airport, I
+            was
+            <br />
+            struck by the vibrant colors, the chaos of the streets.
+          </p>
+        </div>
+        <a href="./KathmanduNepal.html"
+          ><div
+            class="flex gap-5 scale-100 hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+          >
+            <p class="md:text-2xl text-xl font-semibold text-[#4169E1]">
+              Read Full Post
+            </p>
+            <img src="./assets/images/arrow1.svg" alt="arrow" /></div
+        ></a>
+      </div>
+
+      <!-- Fourth Image -->
+
+      <div class="flex flex-col md:gap-5 gap-2 hover:cursor-pointer">
+        <img src="./assets/images/Prague, Ukraine.png" alt="image" />
+        <div class="flex justify-between">
+          <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+            Prague, Ukraine
+          </p>
+          <div class="flex gap-2">
+            <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+              Feb 27, 2023
+            </p>
+            <img src="./assets/images/dot.svg" alt="dot" />
+            <p class="md:text-2xl text-base font-medium text-[#5B5B5B]">
+              4 min read
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col md:gap-5 gap-2">
+          <h3 class="md:text-4xl text-xl font-bold text-[#000000]">
+            The Petrin Hill
+          </h3>
+          <p class="md:text-xl text-xs font-medium text-[#000000]">
+            I visited Prague, the beautiful capital city of the Czech
+            Republic,<br />
+            and one of my favorite places in the city was the Petrin Hill.
+            The<br />
+            Petrin Hill is a green oasis in the heart of Prague.
+          </p>
+        </div>
+        <a href="PragueUkraine.html"
+          ><div
+            class="flex gap-5 scale-100 hover:scale-105 ease-in duration-100 hover:cursor-pointer"
+          >
+            <p class="md:text-2xl text-xl font-semibold text-[#4169E1]">
+              Read Full Post
+            </p>
+            <img src="./assets/images/arrow1.svg" alt="arrow" /></div
+        ></a>
+      </div>
+    </div>
+
+    <!-- Numbers div section starts here -->
+
+    <div class="flex justify-center items-baseline md:gap-10 gap-2 my-5">
+      <a href="./destination.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>1</p>
+        </div></a
+      >
+      <a href="./stories.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>2</p>
+        </div></a
+      >
+      <a href="./review.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>3</p>
+        </div></a
+      >
+      <a href="./fulldetails.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>4</p>
+        </div></a
+      >
+      <a href="./signup.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>5</p>
+        </div></a
+      >
+      <a href="./activelogin.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>6</p>
+        </div></a
+      >
+    </div>
+
+    <!-- From 7 to 12 -->
+
+    <div class="flex justify-center items-baseline md:gap-10 gap-2 my-5">
+      <a href="./writereviews.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>7</p>
+        </div></a
+      >
+      <a href="./forgotpassword.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>8</p>
+        </div></a
+      >
+      <a href="./inputverificationcode.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>9</p>
+        </div></a
+      >
+      <a href="./resetpassword.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>10</p>
+        </div></a
+      >
+      <a href="./verification.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>11</p>
+        </div></a
+      >
+      <a href="./writereviews.html"
+        ><div
+          class="text-xl font-bold text-[#5B5B5B] border-2 border-[#5B5B5B] rounded-lg text-center py-3 md:w-14 w-full hover:bg-[#4169E1] hover:text-[#FFFFFF]"
+        >
+          <p>12</p>
+        </div></a
+      >
+    </div>
+
+    <!-- Footer section starts here -->
+
+    <footer
+      class="bg-[#4169E1] flex flex-col items-center justify-center gap-5 py-20"
+    >
+      <div class="hover:cursor-pointer">
+        <img src="./assets/images/logo1.png" alt="logo" />
+      </div>
+      <div>
+        <p
+          class="md:text-2xl text-xl font-semibold text-[#FFFFFF] hover:cursor-pointer"
+        >
+          © 2023 Travel Pulse. All rights reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
